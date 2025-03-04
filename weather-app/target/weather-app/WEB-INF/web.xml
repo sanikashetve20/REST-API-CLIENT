@@ -1,0 +1,12 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <display-name>Weather App</display-name>
+    <servlet>
+        <servlet-name>WeatherServlet</servlet-name>
+        <servlet-class>com.weather.WeatherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WeatherServlet</servlet-name>
+        <url-pattern>/weather</url-pattern>
+    </servlet-mapping>
+</web-app>
+eb-app>
